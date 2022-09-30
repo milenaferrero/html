@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: cadetblue;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: cornsilk;
+        }
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: rgb(122, 93, 136);
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color:darkslategrey;
+            height: 300px;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: dimgrey;
+            padding: 10px;
+            text-align: center;
+            color: gainsboro;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MESSI</h1>
+    </header>
+    <section>
+    <nav>
+        <ul>
+            <li>biografía</li>
+            <li>goles</li>
+        </ul>
+    </nav>
+    <article>
+        <h1>Ligas</h1>
+        <p>las ligas ganadas</p>
+    </article>
+    <article>
+        <h1>goles actuales</h1>
+        <p>goles marcados este año</p>
+    </article>
+    </section>
+    <footer>
+        <p>copyright milena 2022</p>
+    </footer>
+</body>
+</html>
